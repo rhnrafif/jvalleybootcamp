@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "email": "rhnrafif@gmail.com",
+      "password": "$2a$10$8e0XyOdnbr7OEsuqVhi5FuBNcs562aQJTH9Udvuqcw1fBjBhMgb7q",
+      "id": 1
+    },
+    {
+      "email": "rhnrafif14@gmail.com",
+      "password": "$2a$10$aN1OI6oNdPSnhu0zBzlDQu3l5N1qsJ2fi06Ivrty3.WRzEhHoRJtm",
+      "id": 2
+    },
+    {
+      "email": "rhan@beefourb.com",
+      "password": "$2a$10$tD2cG4G4g17xvlhf0j86Iu7XU0SXDiooWciqKIkDnHV3wICpuN0WC",
+      "id": 3
+    },
+    {
+      "email": "alif@gmail.com",
+      "password": "$2a$10$Euc7f1V7IAyvr0kmOVFiLOiqWwJQmeLgNp29O4ZCnl2w6hNAHnWfy",
+      "id": 4
+    }
+  ],
+  "blogs": [
+    
+    {
+      "userId": 1,
+      "author": "rhnrafif@gmail.com",
+      "judul": "Ini wanita",
+      "img": "https://images.pexels.com/photos/8778462/pexels-photo-8778462.jpeg?auto=compress&cs=tinysrgb&w=600&h=200$lazy=load",
+      "content": "Jadi ini",
+      "createdAt": "9/21/2022",
+      "id": 3
+    }
+  ]
+}

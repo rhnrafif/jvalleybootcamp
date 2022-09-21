@@ -1,0 +1,64 @@
+{
+  "notes": [
+    {
+      "id": 1,
+      "catatan": "ini catatan hari pertama",
+      "status": true
+    },
+    {
+      "catatan": "Ini catatan hasil update dari PUT",
+      "status": false,
+      "id": 2
+    },
+    {
+      "catatan": "ini adalah catatan dari tester post methode",
+      "status": true,
+      "id": 4
+    },
+    {
+      "catatan": "ini adalah catatan belajar Vite JS",
+      "status": false,
+      "id": 6
+    },
+    {
+      "catatan": "ini adalah catatan belajar React",
+      "status": false,
+      "id": 7
+    },
+    {
+      "catatan": "ini adalah catatan belajar Go Lang",
+      "status": false,
+      "id": 8
+    },
+    {
+      "catatan": "ini adalah catatan belajar Java",
+      "status": false,
+      "id": 9
+    },
+    {
+      "catatan": "ini adalah catatan belajar Dart",
+      "status": false,
+      "id": 10
+    },
+    {
+      "catatan": "ini adalah catatan belajar Ruby",
+      "status": false,
+      "id": 11
+    },
+    {
+      "catatan": "ini adalah catatan belajar C++",
+      "status": false,
+      "id": 12
+    },
+    {
+      "catatan": "ini adalah catatan belajar CSS Awesome",
+      "status": false,
+      "id": 13
+    },
+    {
+      "catatan": "ini adalah catatan belajar Kehidupan",
+      "status": false,
+      "id": 14
+    }
+  ]
+}

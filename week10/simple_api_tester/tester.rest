@@ -1,0 +1,50 @@
+### read notes
+GET http://localhost:3000/notes
+Content-Type: application/json
+
+### read single note
+GET http://localhost:3000/notes/2
+Content-Type: application/json
+
+### read + sort and order
+GET http://localhost:3000/notes?_sort=id&_order=desc
+Content-Type: application/json
+
+### read + pagination
+GET http://localhost:3000/notes?_page=2&_limit=3
+Content-Type: application/json
+
+### read + pagination + sort and order
+GET http://localhost:3000/notes?_page=2&_limit=3&_sort=id&_order=desc
+Content-Type: application/json
+
+### create note
+POST http://localhost:3000/notes
+Content-Type: application/json
+
+{
+    "catatan" : "ini adalah catatan belajar Kehidupan",
+    "status": false
+}
+
+### delete note
+DELETE http://localhost:3000/notes/5
+Content-Type: application/json
+
+### update note
+PUT http://localhost:3000/notes/2
+Content-Type: application/json
+
+{
+    "catatan": "Ini catatan hasil update dari PUT",
+    "status": true
+    
+}
+
+### update single data dalam satu note
+PATCH http://localhost:3000/notes/2
+Content-Type: application/json
+
+{
+    "status": false
+}

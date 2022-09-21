@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+
+  .auth{
+    @apply w-screen min-h-screen flex flex-col justify-center items-center bg-gradient-to-br from-sky-800 to-sky-500
+  }
+
+  .auth_form{
+    @apply p-4 flex flex-col gap-2 bg-slate-100 rounded-lg shadow-xl w-[300px]
+  }
+
+  .auth_form h1{
+    @apply text-center text-xl font-semibold
+  }
+
+  .auth_form button{
+    @apply h-12 bg-sky-800 text-white rounded-lg mt-3
+  }
+
+  .form_group{
+    @apply flex flex-col gap-4 font-light
+  }
+
+  .form_group label{
+    @apply text-slate-900
+  }
+
+  .form_group input{
+    @apply h-12 px-2 font-light outline outline-1 outline-sky-500 rounded-lg focus:outline focus:outline-slate-600
+  }
+
+}
