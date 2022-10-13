@@ -1,0 +1,39 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "title": "Dyan Ayu",
+      "slug": "dyan-ayu-mantan",
+      "body": "Dia itu cuma mantan, jadi tolong jangan diambil hati kalau dia butuh perhatian elu !",
+      "banner": "https://images.pexels.com/photos/38289/portrait-photography-profile-face-one-38289.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 2,
+      "title": "Tamara Agustina",
+      "slug": "tamara-agustina",
+      "body": "Dia belum jadian, tapi pergi gara - gara lu ghosting dia mulu cuy !",
+      "banner": "https://images.pexels.com/photos/594421/pexels-photo-594421.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "id": 3,
+      "title": "Nabila Choirunnisa",
+      "slug": "nabila-choir",
+      "body": "Kalau sama dia sedikit lagi jadian, tapi elu nya labil !",
+      "banner": "https://images.pexels.com/photos/458381/pexels-photo-458381.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "title": "Pidia Misbah",
+      "slug": "pidia-mis",
+      "body": "Kalo ini cuma di ghosting dari awal sampe dia mau nikah",
+      "banner": "https://images.pexels.com/photos/428321/pexels-photo-428321.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "id": 4
+    },
+    {
+      "title": "Amanda",
+      "slug": "amanda-kh",
+      "body": "Yang ini baru naksir, belum berani bilang\n",
+      "banner": "https://images.pexels.com/photos/413959/pexels-photo-413959.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "id": 5
+    }
+  ]
+}

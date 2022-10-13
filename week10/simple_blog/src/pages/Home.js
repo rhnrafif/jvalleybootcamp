@@ -8,28 +8,24 @@ export default function Home(){
     //ubah document title
     document.title = "Home Page";
 
-    axios.get('http://localhost:3000/blogs')
+    axios.get('http://localhost:3000/blogs?_sort=id&_order=desc',)
     .then((res)=>{
         app.innerHTML += Navbar();
+        app.innerHTML += `<div class="container flex justify-center"></div>`
         res.data.forEach((e)=>{
-            app.innerHTML += `
-                <div class="flex flex-col gap-4 max-w-[600px] bg-gray-700 shadow-md p-6 my-4 mx-auto rounded-md" >
-                    <h1>${e.judul}</h1>
-                    <small>${e.author}</small>
-                    <img src="${e.img}" alt="${e.judul}">
-                    <p>${e.content}</p>
-                </div>
+            app.innerHTML +=`
+            
+            <a href="/details?id=${e.id}" class="bg-white p-6 flex flex-col rounded-md my-6 max-w-[700px] shadow-md mx-auto">
+                <h1 class="text-2xl text-gray-900">${e.judul}</h1>
+                <small>${e.author}</small>
+                <img class="h-[280px] object-cover my-4 rounded-lg" src="${e.img}" alt="${e.judul}"/>
+                <p>${e.content}</p>
+            </a>
+            
             `
         })
     })
-
-    // app.innerHTML = `
-    //     <div class="px-4 w-screen min-h-screen max-w-[1080px] mx-auto">
-    //         <div class="flex justify-center items-center">
-    //             <h1 class="text-sky-700 text-4xl mx-auto">Welcome to J Valleyy Gannnn</h1>
-
-    //         </div>
-    //     </div>
-    
-    // `
+    .catch((err)=>{
+        console.error(err)
+    })
 }

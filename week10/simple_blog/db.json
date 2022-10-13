@@ -22,7 +22,6 @@
     }
   ],
   "blogs": [
-    
     {
       "userId": 1,
       "author": "rhnrafif@gmail.com",
@@ -31,6 +30,24 @@
       "content": "Jadi ini",
       "createdAt": "9/21/2022",
       "id": 3
+    },
+    {
+      "userId": 1,
+      "author": "rhnrafif@gmail.com",
+      "judul": "Ini Gambar Kuda",
+      "img": "https://images.pexels.com/photos/4732428/pexels-photo-4732428.jpeg?auto=compress&cs=tinysrgb&w=500&lazy=load",
+      "content": "Kopbfe uivivpafbluiuvkbdiuvbkfieuvfb",
+      "createdAt": "9/22/2022",
+      "id": 4
+    },
+    {
+      "userId": 1,
+      "author": "rhnrafif@gmail.com",
+      "judul": "Mantan Pacar Ke 2",
+      "img": "https://images.pexels.com/photos/13623557/pexels-photo-13623557.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+      "content": "Dia mengakhiri hubungan karena saya terlalu baik ;)",
+      "createdAt": "9/22/2022",
+      "id": 5
     }
   ]
 }

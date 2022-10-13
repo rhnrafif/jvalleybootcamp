@@ -1,5 +1,6 @@
 import NotFound from './src/pages/404';
 import AddBlog from './src/pages/AddBlog';
+import Details from './src/pages/Details';
 import Home from './src/pages/Home';
 import Login from './src/pages/Login';
 import Register from './src/pages/Register';
@@ -9,7 +10,7 @@ const page = window.location.pathname;
 const userData =localStorage.getItem('userData');
 switch(page){
   case "/":
-    Home();
+    Home()
     break
 
   case "/login":
@@ -24,6 +25,10 @@ switch(page){
     userData ? AddBlog() : Register();
     break
 
+  case "/details":
+    Details();
+    break
+    
   default:
     NotFound();
 
