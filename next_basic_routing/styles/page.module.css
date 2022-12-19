@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_dark{
+    background-color: black;
+    color : whitesmoke
+}
+
+.container_light{
+    background-color: whitesmoke;
+    color: whitesmoke;
+}

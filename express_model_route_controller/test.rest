@@ -1,0 +1,15 @@
+### create data sisa
+POST http://localhost:9000/api/siswa/create
+Content-Type: application/json
+
+ {
+    "nama_lengkap" : "rafif",
+    "usia" : 14,
+    "alamat" : "Tangerang",
+    "phone" : "0898999999",
+    "email" : "efeg@ganteng.com",
+    "kelas" : "7A",
+    "nis" : "0789789"
+ }
+    
+ 
